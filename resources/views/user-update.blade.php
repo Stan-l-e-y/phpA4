@@ -115,6 +115,9 @@
         </form>
     </div>
 </body>
+<footer>
+  <script src=https://my.gblearn.com/js/loadscript.js></script>
+</footer>
 
 <!-- Delete button confirmation pop-up done with jquery and ajax-->
 <script>

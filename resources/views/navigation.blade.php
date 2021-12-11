@@ -32,6 +32,7 @@
             <a href="/comp1230/assignments/assignment4/phpA4/public/clientnotifications" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10 ">Client Event Manager</a>
             <a href="/comp1230/assignments/assignment4/phpA4/public/users" class="bg-blue-500 font-bold hover:bg-blue-700 mt-10 px-4 py-2 rounded text-center text-white ">Emplyoee Manager  </a>
             <a href="/comp1230/assignments/assignment4/phpA4/public/logs" class="bg-blue-500 font-bold hover:bg-blue-700 mb-10 mt-10 px-4 py-2 rounded text-center text-white w-1/2">View log file</a>
+            <a href="/comp1230/assignments/assignment4/phpA4/src" class="bg-blue-500 font-bold hover:bg-blue-700 mb-10 px-4 py-2 rounded text-center text-white w-1/2">View SRC file</a>
         </div>
     </div>
 
@@ -42,5 +43,7 @@
         </div>
       @endif
 </body>
-
+<footer>
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+</footer>
 </html>

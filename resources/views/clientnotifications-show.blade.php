@@ -108,5 +108,8 @@
       @endif
 
 </body>
+<footer>
+  <script src=https://my.gblearn.com/js/loadscript.js></script>
+</footer>
 
 </html>

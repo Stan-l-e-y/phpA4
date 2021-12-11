@@ -55,5 +55,8 @@
     </div>
     <div class="mt-10 mb-10 mx-auto max-w-sm pl-6"><a href="/comp1230/assignments/assignment4/phpA4/public/notifications" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Go Back</a></div>
 </body>
+<footer>
+  <script src=https://my.gblearn.com/js/loadscript.js></script>
+</footer>
 
 </html>

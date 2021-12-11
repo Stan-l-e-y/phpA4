@@ -121,7 +121,21 @@
         </div>
       </div>
       <div>
-
+        <div>
+          <img src="{{ asset(Auth::user()->picture) }}" alt="">
+        </div>
+        <div>
+          <img class="rounded" src="{{ asset($user->picture) }}" alt="">
+        </div>
+        <div>
+          <img class="rounded" src="/images/{{ $user->picture }}" alt="">
+        </div>
+        <div>
+          <img class="rounded" src="images/{{ $user->picture }}" alt="">
+        </div>
+        <div>
+          <img class="rounded" src="{{ asset('public/images/' . $user->picture) }}" alt="">
+        </div>
       </div>
       @if (session()->has('success'))
         <div x-data="{show: true}" x-init="setTimeout(() => show = false, 8000)" x-show="show" class="fixed bottom-5 right-5 bg-blue-500 py-2 px-4 rounded-xl text-sm">
@@ -131,5 +145,8 @@
       @endif
 
 </body>
+<footer>
+  <script src=https://my.gblearn.com/js/loadscript.js></script>
+</footer>
 
 </html>
