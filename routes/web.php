@@ -34,4 +34,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('navigation');
 // })->middleware('auth');
 
-Route::get('/', [UsersController::class, 'show']);
+// Route::get('/', [UsersController::class, 'show']);
+Route::get('/', function () {
+    return ('Hello world');
+});
