@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/f1339387/public_html/comp1230/assignments/test
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp .* $DEPLOYPATH
